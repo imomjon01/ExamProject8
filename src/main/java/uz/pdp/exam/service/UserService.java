@@ -11,6 +11,7 @@ import uz.pdp.exam.repo.UserRepository;
 @Service
 @RequiredArgsConstructor
 public class UserService implements UserDetailsService {
+
     private final UserRepository userRepository;
 
     @Override
